@@ -1,38 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c4c4c4;
+}
+
 .App {
-  text-align: center;
+    max-width: 466px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+    margin-right: 7px;
+    padding: 0 7px;
+    height: 33px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputSelector button {
+    padding: 7px;
+    min-width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputSelector h1 {
+    margin-bottom: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputSelector {
+    margin-bottom: 10.5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputSelector .inputSelector__p {
+    margin-bottom: 7px;
 }
+
+.listOfDebtors {
+    display: flex;
+    margin-bottom: 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listOfDebtors li {
+    list-style-type: none;
+    padding-right: 7px;
+}
+
+.listOfDebtors button {
+    padding: 5px;
+    min-width: 30px;
+}
+.buttons button {
+    padding: 5px;
+    margin-right: 7px;
+    min-width: 50px;
+}
+
